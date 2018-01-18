@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="src/css/style1.css">
+    <title></title>
+    <header>
+      <h1>Registration For Resume</h1>
+    </header>
+  </head>
+  <body>
+    <div class="container">
+      <form action="#" name="StudentRegistration" onsubmit="return(validate());">
+      <from action="">
+        <div class="from-row">
+          <input type="text" id="name" placeholder="Person Name"><sup style="color: red; font-size: 23px;">*</sup>
+        </div>
+        <div class="from-row">
+          <select name="Gender" required>
+      			 <option value="-1" selected>Gender..</option>
+      			<option value="Male">Male</option>
+      			<option value="Female">Female</option>
+            <option value="Others">Others</option>
+      		</select>
+        </div>
+        <div class="from-row">
+        <input type="date" id="dob" name="Date Of Birthday" value="" placeholder="Date Of Birthday" required>
+      </div>
+        <div class="from-row">
+          <input type="tel" id="phno" name="phno"  placeholder="Phone Number" required>
+        </div>
+        <div class="from-row">
+          <input type="email" id="email" placeholder="Email Id" required>
+        </div>
+        <div class="from-row">
+          <input type="text" id="personaladdress" placeholder="Personal Address" required>
+        </div>
+        <div class="from-row">
+          <label for="">Education Details</label>
+        </div>
+        <div class="from-row">
+        <input type="text" name="" id="ssc" value="" placeholder="SSC Details" required>
+      </div>
+        <div class="from-row">
+          <input type="text" name="" id="int" value="" placeholder="InterMediate" required>
+        </div>
+          <div class="from-row">
+          <input type="text" name="" value="" placeholder="Graduate" required>
+          </div>
+          <div class="from-row">
+            <label for="">Skils</label>
+          </div>
+          <div class="from-row">
+          <input type="text" name="" value="" placeholder="Technical Skills" required>
+          </div>
+          <div class="from-row">
+          <input type="text" name="" value="" placeholder="Interpersonal Skills">
+          </div>
+          <div class="from-row">
+          <input type="text" name="" value="" placeholder="Expeerince">
+          </div>
+          <div class="from-row">
+          <input type="text" name="" value="" placeholder="Achievements">
+          </div>
+          <div class="from-row">
+              <input type="file" name="pic" accept="image/*">
+          </div>
+        <div class="from-row">
+          <button class="button" type="submit">Submit</button>
+        </div>
+      </from>
+      <p id="Name"></p>
+    </div>
+  </form>
+  </body>
+</html>
