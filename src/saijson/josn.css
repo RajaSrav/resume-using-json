@@ -136,6 +136,7 @@ border-radius: 20px;
 .main-wrapper {
   background: #fff;
   padding: 60px;
+  font-size: 15px;
   padding-right: 300px;
 }
 .main-wrapper .section-title {
@@ -221,9 +222,11 @@ border-radius: 20px;
   .sidebar-wrapper {
     position: static;
     width: inherit;
+    font-size: 20px;
   }
   .main-wrapper {
     padding: 30px;
+    font-size: 20px;
   }
   .main-wrapper .time {
     position: static;

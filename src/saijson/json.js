@@ -53,7 +53,6 @@ function results() {
     sonof(data.basics.sonof);
     email(data.basics.email);
     address(data.basics.location.address);
-    languages(data.basics.location.languages);
     career(data.basics.co);
     expe(data.basics.expe);
     expe1(data.basics.expe1);
@@ -81,7 +80,7 @@ function results() {
   // }
 function Phone(phone) {
   var div=document.getElementById('phone');
-  div.innerHTML="9052507933";
+  div.innerHTML=phone;
 
 }
 
@@ -108,10 +107,7 @@ function Phone(phone) {
     var div=document.getElementById('address');
     div.innerHTML=address;
   }
-  function languages(languages) {
-    var div=document.getElementById('languages');
-    div.innerHTML=languages;
-  }
+
   function career(co) {
     var div=document.getElementById('co');
     div.innerHTML=co;

@@ -1,8 +1,8 @@
 .flex{
   display: flex;
-  flex-wrap: wrap;
   align-self: flex-start;
   justify-content: space-around;
+  padding: 5px;
 }
 #new {
   background-color: #000;
@@ -20,7 +20,6 @@
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     border:1px solid #000;
     float:left;
-
     width: 40%;
     border-radius: 5px;
 }
@@ -64,35 +63,46 @@ button {
   #head{
     font-size: 35px;
   }
+  .container h3{
+    font-size: 25px;
+  }
+  .container button{
+    background-color: #c45E45;
+    font-size: 25px;
+  }
+  #head{
+    background-color:#c45e45;
+    font-size: 35px;
+  }
+  #new{
+  background-color: #c45e45;
+  font-size: 35px;
+  }
 }
 
-@media only screen and (max-width:900px) {
+@media only screen and (max-width:768px) {
+  .flex{
+    flex-wrap:nowrap;
+  }
   .cardview {
     width: auto;
+    background-color: #2df000;
   }
   #head{
     font-size: 25px;
   }
 
 }
-
-@media only screen and (max-width: 750px) {
-  .cardview{
-    margin-top: 10%;
+@media only screen and (max-width:425px) {
+  .flex{
+    flex-wrap: wrap;
   }
-  #head{
-    font-size: 25px;
-  }
-
-
-}
-
-@media only screen and (min-width: 750px) {
-
   .cardview {
-    display: block;
+    width: auto;
+    background-color: #2df000;
   }
   #head{
-    font-size: 40px;
+    font-size: 25px;
   }
+
 }
