@@ -42,7 +42,7 @@ function basic(basics) {
   //image in dom
       var img = document.createElement("img");
       img.classList.add("profile");
-      img.src=("raja.jpg");
+      img.src=("profile.png");
       // r1.appendChild(img);3
       //name&designation in dom
        var h1 = document.createElement("h1");
