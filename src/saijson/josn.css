@@ -160,9 +160,6 @@ border-radius: 20px;
     position: static;
     width: inherit;
   }
-  .profile .image {
-    height: 150px;
-  }
   .left {
     padding: 30px;
     position: static;

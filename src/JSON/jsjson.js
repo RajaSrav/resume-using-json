@@ -1,3 +1,8 @@
+
+function jsonResume() {
+  window.open('src/JSON/index.html','_self',false)
+}
+
 (function() {
   function loadJSON(file, callback) {
     var rawFile = new XMLHttpRequest();
@@ -42,7 +47,7 @@ function basic(basics) {
   //image in dom
       var img = document.createElement("img");
       img.classList.add("profile");
-      img.src=("profile.png");
+      img.src=basics.picture;
       // r1.appendChild(img);3
       //name&designation in dom
        var h1 = document.createElement("h1");

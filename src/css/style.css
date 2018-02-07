@@ -1,12 +1,22 @@
 .flex{
   display: flex;
-  align-self: flex-start;
+  padding-bottom: 10px;
   justify-content: space-around;
-  padding: 5px;
+}
+html{
+  background-color: #999;
+}
+#head{
+  text-align: center;
+  color:#fff;
+  background-color: #7A7A7A;
+  border: 2px solid #fff;
 }
 #new {
-  background-color: #000;
-  border-radius: 1%;
+  border-radius: 10%;
+  font-size: 2em;
+  background-color: #7A7A7A;
+  border: 2px solid #fff;
   }
   a{
     text-decoration: none;
@@ -18,35 +28,15 @@
   }
 .cardview {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    border:1px solid #000;
-    float:left;
-    width: 40%;
+    padding: 10px;
+    text-align: center;
     border-radius: 5px;
+    background-color: #F4A460;
 }
-
 .cardview:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
-
-img {
-    border-radius: 5px 5px 0 0;
-}
-
-.container {
-    padding: 2px 16px;
-}
-img{
-  width: 100%;
-}
-html{
-  background-color: #999;
-}
-#head{
-  text-align: center;
-  background-color: #333;
-  color: #fff;
-}
-button {
+   }
+button{
   padding: 8px;
   color: #fff;
   background-color: #000;
@@ -55,54 +45,71 @@ button {
   width: 100%;
   font-size: 18px;
 }
+p a{
+  padding: 8px;
+  color: #fff;
+  background-color: #000;
+  text-align: center;
+  font-size: 1em;
+  border-radius: 2em;
+}
 @media only screen and (max-width: 1024px) {
   .cardview {
-    margin-top: 5%;
-
-  }
-  #head{
-    font-size: 35px;
+background-color: #154;
+color: #fff;
+font-family: verdana;
   }
   .container h3{
     font-size: 25px;
   }
-  .container button{
-    background-color: #c45E45;
+   .container a{
+    background-color: #EE6363;
     font-size: 25px;
   }
-  #head{
-    background-color:#c45e45;
-    font-size: 35px;
-  }
-  #new{
-  background-color: #c45e45;
-  font-size: 35px;
+  #head,#new{
+    font-size: 1.8em;
+    background-color: #c45e45;
   }
 }
-
 @media only screen and (max-width:768px) {
   .flex{
     flex-wrap:nowrap;
   }
   .cardview {
     width: auto;
-    background-color: #2df000;
+    color: #000;
+    background-color: #F08080;
   }
-  #head{
-    font-size: 25px;
+  .cardview img{
+    text-align: center;
+  }
+   .container a{
+      background-color:#00CD66;
+      font-size: 25px;
+    }
+  #head,#new{
+    font-size: 1.5em;
+    background-color: #413;
   }
 
 }
-@media only screen and (max-width:425px) {
-  .flex{
+@media only screen and (max-width:450px) {
+   .flex{
     flex-wrap: wrap;
   }
   .cardview {
-    width: auto;
-    background-color: #2df000;
+    display: flex;
+    /* flex-wrap: wrap; */
+    background-color: #90EE90;
+    font-family: verdana;
+    border-radius: 30px;
+    margin: 1em;
   }
-  #head{
-    font-size: 25px;
+  .cardview img{
+    border-radius: 2em;
   }
-
+  #head,#new{
+    font-size: 2em;
+      background-color: #c45e45;
+  }
 }

@@ -1,7 +1,7 @@
 {
 	"basics":
 		 {
-		"picture": "profile.png",
+		"picture": "/src/img/images.png",
 		"name": "D.Sairam",
 		"designation": "Junior Software Trainee",
 		"data":[
@@ -16,26 +16,17 @@
 			"college": ["E.V.M College of engineering",
 			"2012-2016",
 			"70%"]
-
-
 		},
 		{
 			"course":"Intermediate(M.P.C)",
 				"college":["Sri chaitanya boys junior college",
 				"2010-2012",
-				"70%"]
-
-
-		},
+				"70%"] },
 		{
 			"course": "SSC",
 			"college":["Navabharatha high school",
 			"2009-2010",
-			"70%"]
-
-
-		}
-	],
+			"70%"] } ],
 	"interest": [{
 			"inte": "Playing chess"
 		},

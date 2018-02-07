@@ -71,6 +71,8 @@ function basic(basics) {
       r1.appendChild(ul);
       // r1.appendChild(document.createElement("HR"));
 }
+
+
        //r2 div-education
        var r2=document.createElement("div");
        r2.classList.add("education");
@@ -79,6 +81,8 @@ function basic(basics) {
        // //for break
        // var mybr = document.createElement("Br");
        // r2.appendChild(mybr);
+
+
 
 //  function calling
       function edu(education) {
@@ -98,8 +102,10 @@ function basic(basics) {
                e2.appendChild(e3);
                e1.appendChild(e2);
                r2.appendChild(e1);
+
              }
            }
+
            right.appendChild(r2);
            // r2.appendChild(document.createElement("HR"));
 // console.log(r2);
@@ -121,6 +127,7 @@ function interest(interest){
         var li = document.createElement("li");
         li.textContent = interest[k].inte;
          ul.appendChild(li);
+
      }
     r3.appendChild(ul);
     right.appendChild(r3);
@@ -137,6 +144,8 @@ r4.classList.add("Languages");
  h1.setAttribute("id", "Language");
  h1.textContent="Languages Known :";
  h1.appendChild(document.createElement("HR"));
+
+
  //function calling
   function lang(Languages){
     var ul = document.createElement("ul");
@@ -168,12 +177,14 @@ function carrier(carrier){
   h2.textContent="Career Objective:";
   h2.appendChild(document.createElement("HR"))
 
+
    var para =document.createElement("p");
    para.classList.add("carr");
    para.textContent=carrier.carr;
    l1.appendChild(h2);
    l1.appendChild(para);
    left.appendChild(l1);
+
 
    console.log(main);
 }//function ending
@@ -210,6 +221,8 @@ function experience(experience){
 // console.log(l2);
 }
 //l2 ending
+
+
 // l3 starting
 var l3=document.createElement("div");
 l3.classList.add("Tech-skills");
@@ -242,13 +255,13 @@ function skills(technicalskils){
  l2.appendChild(skills);
  l3.appendChild(skills);
  left.appendChild(l3);
-
  }
+
  //l3 ending
 //l4 starting
 var l4=document.createElement("div");
 l4.classList.add("Acheivements");
-l4.textContent="Acheivements";
+l4.textContent="Acheivements :";
 l4.appendChild(document.createElement("HR"))
 
 function Acheivements(Acheivements){
@@ -275,7 +288,7 @@ l5.classList.add("Declaration");
 
 var h2=document.createElement("div");
 h2.setAttribute("id","desc-title");
-h2.textContent="Declaration";
+h2.textContent="Declaration :";
 h2.appendChild(document.createElement("HR"))
 
 //function starting
@@ -283,14 +296,20 @@ function declaration(Declaration){
   var para =document.createElement("p");
   para.setAttribute("id","desc");
   para.textContent=Declaration.decl;
+
   h2.appendChild(para);
   l5.appendChild(h2);
   left.appendChild(l5);
 }
+
 console.log(l5);
 //l5 ending
+
+
 main.appendChild(right);
 main.appendChild(left);
+
+
 })();
 //
 // // var h1=document.createElement("h1");
